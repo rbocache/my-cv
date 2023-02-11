@@ -508,7 +508,7 @@ progress::-moz-progress-bar {
     
     .full-lg-screen {
         width: 100%;
-        min-height: 100vh;
+        min-height: 40vh;
     }
     
     .text-lg-center {
@@ -676,11 +676,11 @@ progress::-moz-progress-bar {
 
 .service-car h3 {
     color: var(--title-color);
+    margin-top: 20px;
 }
 
-.service-card svg {
-    margin-bottom:1.25rem;
-    fill: var(--first-color);
+.service-card object {
+    margin-bottom: 20px;
 }
 
 .social-media a {
