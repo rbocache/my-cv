@@ -25,19 +25,19 @@
     <header class="header">
         <section class="container">
             <div class="logo">
-                <a href="index.html">RB<span id="dot">.</span></span></a>
+                <a href="index.html">RB<span id="dot">.</span></a>
             </div>
             <button class="menu-btn">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z"/></svg>
                 <svg class="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z"/></svg>
             </button>
             <nav class="menu">
-                <a href="#inicio">Inicio</a>
-                <a href="#acerca">Acerca</a>
-                <a href="#servicios">Servicios</a>
-                <a href="#portafolio">Portafolio</a>
-                <a href="#testimonios">Testimonios</a>
-                <a href="#contacto">Contacto</a>
+                <a href="#inicio">Inicio<span id="dot">.</span></a>
+                <a href="#acerca">Acerca<span id="dot">.</span></a>
+                <a href="#servicios">Servicios<span id="dot">.</span></a>
+                <a href="#portafolio">Portafolio<span id="dot">.</span></a>
+                <!-- <a href="#testimonios">Testimonios</a> -->
+                <a href="#contacto">Contacto<span id="dot">.</span></a>
             </nav>
         </section>
     </header>
@@ -56,7 +56,7 @@
     <section id="acerca" class="about section container full-lg-screen">
         <article class="text-lg-right">
             <aside class="text-center text-lg-right">
-                <h1>Raül Bocache</h1>
+                <h1 id="title-acerca">Raül Bocache</h1>
                 <h5>Desarrollador Web</h5>
             </aside>
             <p>Desde 2018, estoy a tope formándome en Desarrollo de Aplicaciones con Tecnología <em>Web</em> y desarrollándolas para clientes, además de implementar un directorio de profesionales de la salud en Sanamente.net, por lo que llevo unos años de experiencia en multitud de facetas. Desde maquetación, programación, <em>hosting</em>, migraciones, etc.</p> 
@@ -120,7 +120,7 @@
         </article>
         <!-- Servicio diseño -->
         <article class="service-card">
-            <object data="./assets/undraw_pair_programming_re_or4x.svg" type="image/svg+xml" width="300px" height="196px"></object> 
+            <object data="./assets/undraw_process_re_gws7.svg" type="image/svg+xml" width="300px" height="196px"></object> 
            <h3>Diseño gráfico</h3>
            <p>
             Diseño gráfico y maquetación de portadas de libros, flyers, dícticos, trípticos, tarjetas de visita...
@@ -139,9 +139,9 @@
     <section id="portafolio" class="portfolio section">
         <div class="container">
             <h2 class="section-title">Mis Proyectos</h2>
-            <!-- Proyecto 1 -->
+            <!-- Proyecto Curriculum -->
             <a href="#trabajo-1" class="portfolio-card">
-            <img src="./assets/portfolio-1.jpg" alt="Trabajo 1">
+            <img src="./assets/portfolio-1.jpg" alt="Curriculum Raül Bocache">
             <aside class="portfolio-card-info">
                 <div>
                     <h3>Este Curriculum Vitae.</h3>
@@ -149,72 +149,107 @@
                         Este curriculum se ha implementado sólo con HTML5, CSS3 y VanillaJS (sólo envío de formulario y menú hamburguesa en dispositivos móviles). El diseño ha sido Mobile First.
                     </p>
                     <div class="tecnologias">
-                        <svg width="32px" height="32px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><title>HTML5</title><polygon points="5.902 27.201 3.655 2 28.345 2 26.095 27.197 15.985 30 5.902 27.201" style="fill:#e44f26"/><polygon points="16 27.858 24.17 25.593 26.092 4.061 16 4.061 16 27.858" style="fill:#f1662a"/><polygon points="16 13.407 11.91 13.407 11.628 10.242 16 10.242 16 7.151 15.989 7.151 8.25 7.151 8.324 7.981 9.083 16.498 16 16.498 16 13.407" style="fill:#ebebeb"/><polygon points="16 21.434 15.986 21.438 12.544 20.509 12.324 18.044 10.651 18.044 9.221 18.044 9.654 22.896 15.986 24.654 16 24.65 16 21.434" style="fill:#ebebeb"/><polygon points="15.989 13.407 15.989 16.498 19.795 16.498 19.437 20.507 15.989 21.437 15.989 24.653 22.326 22.896 22.372 22.374 23.098 14.237 23.174 13.407 22.341 13.407 15.989 13.407" style="fill:#fff"/><polygon points="15.989 7.151 15.989 9.071 15.989 10.235 15.989 10.242 23.445 10.242 23.445 10.242 23.455 10.242 23.517 9.548 23.658 7.981 23.732 7.151 15.989 7.151" style="fill:#fff"/></svg>
+                        <object data="./assets/htmlLogo.svg" type="image/svg+xml" width="64px"></object>
 
-                        <svg width="32px" height="32px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><title>CSS3</title><polygon points="5.902 27.201 3.656 2 28.344 2 26.095 27.197 15.985 30 5.902 27.201" style="fill:#1572b6"/><polygon points="16 27.858 24.17 25.593 26.092 4.061 16 4.061 16 27.858" style="fill:#33a9dc"/><polygon points="16 13.191 20.09 13.191 20.372 10.026 16 10.026 16 6.935 16.011 6.935 23.75 6.935 23.676 7.764 22.917 16.282 16 16.282 16 13.191" style="fill:#fff"/><polygon points="16.019 21.218 16.005 21.222 12.563 20.292 12.343 17.827 10.67 17.827 9.24 17.827 9.673 22.68 16.004 24.438 16.019 24.434 16.019 21.218" style="fill:#ebebeb"/><polygon points="19.827 16.151 19.455 20.29 16.008 21.22 16.008 24.436 22.344 22.68 22.391 22.158 22.928 16.151 19.827 16.151" style="fill:#fff"/><polygon points="16.011 6.935 16.011 8.855 16.011 10.018 16.011 10.026 8.555 10.026 8.555 10.026 8.545 10.026 8.483 9.331 8.342 7.764 8.268 6.935 16.011 6.935" style="fill:#ebebeb"/><polygon points="16 13.191 16 15.111 16 16.274 16 16.282 12.611 16.282 12.611 16.282 12.601 16.282 12.539 15.587 12.399 14.02 12.325 13.191 16 13.191" style="fill:#ebebeb"/></svg>
+                        <object data="./assets/cssLogo.svg" type="image/svg+xml" width="64px"></object>
 
-                        <svg width="32px" height="32px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><title>Vanilla JS</title><rect x="2" y="2" width="28" height="28" style="fill:#f5de19"/><path d="M20.809,23.875a2.866,2.866,0,0,0,2.6,1.6c1.09,0,1.787-.545,1.787-1.3,0-.9-.716-1.222-1.916-1.747l-.658-.282c-1.9-.809-3.16-1.822-3.16-3.964,0-1.973,1.5-3.476,3.853-3.476a3.889,3.889,0,0,1,3.742,2.107L25,18.128A1.789,1.789,0,0,0,23.311,17a1.145,1.145,0,0,0-1.259,1.128c0,.789.489,1.109,1.618,1.6l.658.282c2.236.959,3.5,1.936,3.5,4.133,0,2.369-1.861,3.667-4.36,3.667a5.055,5.055,0,0,1-4.795-2.691Zm-9.295.228c.413.733.789,1.353,1.693,1.353.864,0,1.41-.338,1.41-1.653V14.856h2.631v8.982c0,2.724-1.6,3.964-3.929,3.964a4.085,4.085,0,0,1-3.947-2.4Z"/></svg>               
+                        <object data="./assets/vanillaJS.svg" type="image/svg+xml" width="64px"></object>               
                     </div>
                 </div>
             </aside>
             </a>
-            <!-- Proyecto 2 -->
+            <!-- Proyecto Sanamente.net -->
             <a href="#trabajo-2" class="portfolio-card">
-            <img src="./assets/portfolio-2.jpg" alt="Trabajo 2">
+            <img src="./assets/sanamente-portal.jpg" alt="Sanamente.net">
             <aside class="portfolio-card-info">
                 <div>
                     <h3>Sanamente.net</h3>
                     <p>
                         Es un portal de salud natural en el cual, además de artículos relacionados, tiene un directorio de profesionales de la salud y que el frontend está implementado totalmente a mano (HTML, CSS y JavaScript).
                     </p>
+                    <div class="tecnologias">
+                        <object data="./assets/htmlLogo.svg" type="image/svg+xml" width="64px"></object>
+
+                        <object data="./assets/cssLogo.svg" type="image/svg+xml" width="64px"></object>
+
+                        <object data="./assets/vanillaJS.svg" type="image/svg+xml" width="64px"></object>
+                        
+                        <object data="./assets/wordpress-svgrepo-com.svg" type="image/svg+xml" width="64px"></object>
+                        
+                        <object data="./assets/mysql-svgrepo-com.svg" type="image/svg+xml" width="64px"></object>
+                    </div>
                 </div>
             </aside>
             </a>
             <!-- Proyecto 3 -->
             <a href="#trabajo-3" class="portfolio-card">
-            <img src="./assets/portfolio-3.jpg" alt="Trabajo 3">
+            <img src="./assets/manuel-gallardo.jpg" alt="mg-gallardo.com">
             <aside class="portfolio-card-info">
                 <div>
                     <h3>mg-gallardo.com</h3>
                     <p>
-                        Web corporativa de un maestro cortador de jamón a cuchillo, donde ofrece sus servicios.
+                        Web corporativa de un maestro cortador de jamón a cuchillo, donde ofrece sus servicios de corte, promotor, mentor y formador. 
                     </p>
+                    <div class="tecnologias">                       
+                        <object data="./assets/wordpress-svgrepo-com.svg" type="image/svg+xml" width="64px"></object>
+                        
+                        <object data="./assets/mysql-svgrepo-com.svg" type="image/svg+xml" width="64px"></object>
+                    </div>
                 </div>
             </aside>
             </a>
             <!-- Proyecto 4 -->
             <a href="#trabajo-4" class="portfolio-card">
-            <img src="./assets/portfolio-4.jpg" alt="Trabajo 4">
+            <img src="./assets/consejos-de-salud-integral.jpg" alt="consejosdesaludintegral.comments">
             <aside class="portfolio-card-info">
                     <div>
                         <h3>consejosdesaludintegral.com</h3>
                         <p>
                             Web de un grupo de médicos y enfermeras que ofrecen consulta y está implementada una simple funcionalidad de pago.
                         </p>
+                        <div class="tecnologias">                       
+                            <object data="./assets/wordpress-svgrepo-com.svg" type="image/svg+xml" width="64px"></object>
+                            
+                            <object data="./assets/mysql-svgrepo-com.svg" type="image/svg+xml" width="64px"></object>
+                        </div>
                     </div>
             </aside>
             </a>
             <!-- Proyecto 5 -->
             <a href="#trabajo-5" class="portfolio-card">
-            <img src="./assets/portfolio-5.jpg" alt="Trabajo 5">
+            <img src="./assets/tu-ecommerce.com" alt="tu-ecommerce.com">
             <aside class="portfolio-card-info">
                         <div>
                             <h3>Tu-ecommerce.com</h3>
                             <p>
                                 Web donde ofrezco mis servicios de desarrollo de eCommerce.
                             </p>
+                            <div class="tecnologias">                       
+                                <object data="./assets/wordpress-svgrepo-com.svg" type="image/svg+xml" width="64px"></object>
+                                
+                                <object data="./assets/genesis-framework.svg" type="image/svg+xml" width="64px"></object>
+
+                                <object data="./assets/mysql-svgrepo-com.svg" type="image/svg+xml" width="64px"></object>
+                            </div>
                         </div>
             </aside>
             </a>
             <!-- Proyecto 6 -->
             <a href="#trabajo-6" class="portfolio-card">
-            <img src="./assets/portfolio-6.jpg" alt="Trabajo 6">
+            <img src="./assets/masqcine-nosferatu.jpg" alt="masqcine.com">
             <aside class="portfolio-card-info">
                         <div>
                             <h3>masqcine.com</h3>
                             <p>
                                 Esta es una web que tenemos un amigo y yo donde damos a conocer al mundo nuestra pasión por el cine. Además, organizamos proyecciones de cine familiar y gestionamos un pequeño cineclub que gestionamos en la web a través de una Intranet.
                             </p>
+                            <div class="tecnologias">                       
+                                <object data="./assets/wordpress-svgrepo-com.svg" type="image/svg+xml" width="64px"></object>
+                                
+                                <object data="./assets/genesis-framework.svg" type="image/svg+xml" width="64px"></object>
+
+                                <object data="./assets/mysql-svgrepo-com.svg" type="image/svg+xml" width="64px"></object>
+                            </div>
                         </div>
             </aside>
             </a>
@@ -226,7 +261,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/></svg>
             </a>
             <article class="portfolio-modal">
-                <img src="./assets/portfolio-1.jpg" alt="Trabajo 1">
+                <img src="./assets/curriculum_raul_bocache.jpg" alt="Trabajo 1">
                 <div class="portfolio-info">
                     <h3>Este Curriculum</h3>
                     <p>Este curriculum se ha implementado sólo con HTML5, CSS3 y VanillaJS (sólo envío de formulario y menú hamburguesa en dispositivos móviles). El diseño ha sido Mobile First.</p>
@@ -240,7 +275,7 @@
                         <small><b>TECNOLOGÍAS:</b></small>
                         <small>HTML5, CSS3, VanillaJS</small>                        
                         <small><b>ENLACE:</b></small>
-                        <small><a href="https://rbocache.github.io/my-cv/files" rel="noopener">Esta página</a></small>
+                        <small><a href="https://rbocache.github.io/my-cv/files" rel="noopener">Este curriculum</a></small>
                     </aside>
                 </div>
             </article>
@@ -252,19 +287,19 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/></svg>
             </a>
             <article class="portfolio-modal">
-                <img src="./assets/portfolio-1.jpg" alt="Trabajo 2">
+                <img src="./assets/sanamente_net.JPG" alt="Sanamente.net">
                 <div class="portfolio-info">
-                    <h3>NOMBRE DEL PROYECTO 2</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, optio! Quod explicabo adipisci molestiae totam veniam et? Autem cupiditate perspiciatis aliquam. Harum eligendi corporis exercitationem non, nihil velit ea enim?</p>
+                    <h3>Sanamente.net</h3>
+                    <p>Este portal tiene más de 400 entradas relacionadas con la salud natural. Un directorio de profesionales de la salud con ficha de comunicación con los profesionales.</p>
                     <aside class="portfolio-details">
                         <small><b>CLIENTE:</b></small>
-                        <small>Nombre del Cliente</small>
+                        <small>Sanamente.net</small>
                         <small><b>FECHA:</b></small>
-                        <small>25/11/22</small>
+                        <small>10/04/21</small>
                         <small><b>TIPO:</b></small>
-                        <small>Tipo de Proyecto</small>
+                        <small>Frontend / Backend</small>
                         <small><b>ENLACE:</b></small>
-                        <small><a href="https://tu-ecommerce.com" target="_blank" rel="noopener">https://</a></small>
+                        <small><a href="https://sanamente.net" target="_blank" rel="noopener">sanamente.net</a></small>
                     </aside>
                 </div>
             </article>
@@ -276,19 +311,19 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/></svg>
             </a>
             <article class="portfolio-modal">
-                <img src="./assets/portfolio-1.jpg" alt="Trabajo 3">
+                <img src="./assets/servicios-manuel-gallardo.jpg" alt="Trabajo 3">
                 <div class="portfolio-info">
-                    <h3>NOMBRE DEL PROYECTO 3</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, optio! Quod explicabo adipisci molestiae totam veniam et? Autem cupiditate perspiciatis aliquam. Harum eligendi corporis exercitationem non, nihil velit ea enim?</p>
+                    <h3>mg-gallardo.com</h3>
+                    <p>Desarrollo íntegro con WordPress. Tienen un blog donde puede publicar contenido relacionado para captar tráfico orgánico a través de los buscadores.</p>
                     <aside class="portfolio-details">
                         <small><b>CLIENTE:</b></small>
-                        <small>Nombre del Cliente</small>
+                        <small>Manuel Gallardo</small>
                         <small><b>FECHA:</b></small>
-                        <small>25/11/22</small>
+                        <small>03/02/23</small>
                         <small><b>TIPO:</b></small>
-                        <small>Tipo de Proyecto</small>
+                        <small>Frontend / Backend</small>
                         <small><b>ENLACE:</b></small>
-                        <small><a href="https://tu-ecommerce.com" target="_blank" rel="noopener">https://</a></small>
+                        <small><a href="https://mg-gallardo.com" target="_blank" rel="noopener">mg-gallardo.com</a></small>
                     </aside>
                 </div>
             </article>
@@ -300,19 +335,19 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/></svg>
             </a>
             <article class="portfolio-modal">
-                <img src="./assets/portfolio-1.jpg" alt="Trabajo 4">
+                <img src="./assets/consejos-de-salud-integral-consulta.jpg" alt="consejosdesaludintegral.com">
                 <div class="portfolio-info">
-                    <h3>NOMBRE DEL PROYECTO 3</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, optio! Quod explicabo adipisci molestiae totam veniam et? Autem cupiditate perspiciatis aliquam. Harum eligendi corporis exercitationem non, nihil velit ea enim?</p>
+                    <h3>Consejos de Salud Integral</h3>
+                    <p>Desarrollo íntegro con WordPress. Tienen un blog donde pueden publicar contenido relacionado para captar tráfico orgánico a través de los buscadores. También hay implementada una pequeña funcionalidad de pago a través de Stripe.</p>
                     <aside class="portfolio-details">
                         <small><b>CLIENTE:</b></small>
-                        <small>Nombre del Cliente</small>
+                        <small>consejosdesaludintegral.com</small>
                         <small><b>FECHA:</b></small>
-                        <small>25/11/22</small>
+                        <small>12/01/21</small>
                         <small><b>TIPO:</b></small>
-                        <small>Tipo de Proyecto</small>
+                        <small>Frontend / Backend</small>
                         <small><b>ENLACE:</b></small>
-                        <small><a href="https://tu-ecommerce.com" target="_blank" rel="noopener">https://</a></small>
+                        <small><a href="https://www.consejosdesaludintegral.com/" target="_blank" rel="noopener">consejosdesaludintegral.com</a></small>
                     </aside>
                 </div>
             </article>
@@ -324,19 +359,19 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/></svg>
             </a>
             <article class="portfolio-modal">
-                <img src="./assets/portfolio-1.jpg" alt="Trabajo 5">
+                <img src="./assets/tu-ecommerce_precios.com" alt="Tu-ecommerce.com">
                 <div class="portfolio-info">
-                    <h3>NOMBRE DEL PROYECTO 3</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, optio! Quod explicabo adipisci molestiae totam veniam et? Autem cupiditate perspiciatis aliquam. Harum eligendi corporis exercitationem non, nihil velit ea enim?</p>
+                    <h3>Tu-ecommerce.com</h3>
+                    <p>Este proyecto está implementado con WordPress, Genesis Framework. Tiene un blog para generar Inbound Marketing.</p>
                     <aside class="portfolio-details">
                         <small><b>CLIENTE:</b></small>
-                        <small>Nombre del Cliente</small>
+                        <small>Raül Bocache</small>
                         <small><b>FECHA:</b></small>
-                        <small>25/11/22</small>
+                        <small>25/07/22</small>
                         <small><b>TIPO:</b></small>
-                        <small>Tipo de Proyecto</small>
+                        <small>Frontend / Backend</small>
                         <small><b>ENLACE:</b></small>
-                        <small><a href="https://tu-ecommerce.com" target="_blank" rel="noopener">https://</a></small>
+                        <small><a href="https://tu-ecommerce.com" target="_blank" rel="noopener">tu-ecommerce.com</a></small>
                     </aside>
                 </div>
             </article>
@@ -348,73 +383,24 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/></svg>
             </a>
             <article class="portfolio-modal">
-                <img src="./assets/portfolio-1.jpg" alt="Trabajo 6">
+                <img src="./assets/masqcine-layout.jpg" alt="masqcine.com">
                 <div class="portfolio-info">
-                    <h3>NOMBRE DEL PROYECTO 3</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, optio! Quod explicabo adipisci molestiae totam veniam et? Autem cupiditate perspiciatis aliquam. Harum eligendi corporis exercitationem non, nihil velit ea enim?</p>
+                    <h3>masqcine.com</h3>
+                    <p>Este proyecto es el más personal, es donde doy rienda suelta a mi imaginación. Está implementado en WordPress y Genesis Framework.</p>
                     <aside class="portfolio-details">
                         <small><b>CLIENTE:</b></small>
-                        <small>Nombre del Cliente</small>
+                        <small>+QCine</small>
                         <small><b>FECHA:</b></small>
-                        <small>25/11/22</small>
+                        <small>25/11/14</small>
                         <small><b>TIPO:</b></small>
-                        <small>Tipo de Proyecto</small>
+                        <small>Frontend / Backend</small>
                         <small><b>ENLACE:</b></small>
-                        <small><a href="https://tu-ecommerce.com" target="_blank" rel="noopener">https://</a></small>
+                        <small><a href="https://masqcine.com" target="_blank" rel="noopener">masqcine.com</a></small>
                     </aside>
                 </div>
             </article>
         </div>
     </article>    
-    <section id="testimonios" class="testimonials">
-        <article class="hero-image hero-image-customers" style="--hero-attachment: scroll;">
-            <aside class="hero-image-opacity" style="--hero-opacity-color: var(--white-alpha-color);">
-                <div class="hero-image-content">
-                    <div class="container">
-                        <h2 class="section-title">Qué dicen mis clientes</h2>
-                        <article class="carousel" style="--carousel-bg-color:var(--white-alpha-color)">
-                            <input type="radio" name="slides" id="slide-1" cheched>
-                            <input type="radio" name="slides" id="slide-2">
-                            <input type="radio" name="slides" id="slide-3">
-                            <input type="radio" name="slides" id="slide-4">
-                            <ul class="slides">
-                                <li class="slide">
-                                    <img class="avatar" src="./assets/customer-1.jpg" alt="Cliente 1">
-                                    <blockquote>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. </blockquote>
-                                    <h3 class="text-first-color">Nombre del cliente</h3>
-                                    <h6>Puesto del cliente</h6>
-                                </li>
-                                <li class="slide">
-                                    <img class="avatar" src="./assets/customer-2.jpg" alt="Cliente 2">
-                                    <blockquote>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. </blockquote>
-                                    <h3 class="text-first-color">Nombre del cliente</h3>
-                                    <h6>Puesto del cliente</h6>
-                                </li>
-                                <li class="slide">
-                                    <img class="avatar" src="./assets/customer-1.jpg" alt="Cliente 3">
-                                    <blockquote>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. </blockquote>
-                                    <h3 class="text-first-color">Nombre del cliente</h3>
-                                    <h6>Puesto del cliente</h6>
-                                </li>
-                                <li class="slide">
-                                    <img class="avatar" src="./assets/customer-2.jpg" alt="Cliente 4">
-                                    <blockquote>"Lorem ipsum dolor sit, amet consectetur adipisicing elit.  </blockquote>
-                                    <h3 class="text-first-color">Nombre del cliente</h3>
-                                    <h6>Puesto del cliente</h6>
-                                </li>                               
-                            </ul>
-                            <aside class="slides-nav">
-                                <label for="slide-1" id="dot-1"></label>
-                                <label for="slide-2" id="dot-2"></label>
-                                <label for="slide-3" id="dot-3"></label>
-                                <label for="slide-4" id="dot-4"></label>
-                            </aside>
-                        </article>
-                    </div>
-                </div>
-            </aside>
-        </article>
-    </section>
     <section id="contacto" class="contact section">
         <div class="container">
             <h2 class="section-title">Contacta conmigo</h2>
@@ -550,7 +536,7 @@
         </div>
     </section>
     <footer class="footer">
-        <small>Sitio diseñado por <a href="https://tu-ecommerce.com" target="_blank" rel="noopener"  >Raül Bocache</a></small>
+        <small>Sitio implementado y diseñado por <a href="https://tu-ecommerce.com" target="_blank" rel="noopener"  >Raül Bocache</a></small>
     </footer>
     
 <script src="./js/script.js"></script>

@@ -653,20 +653,20 @@ progress::-moz-progress-bar {
 
 .tecnologias {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;    
 }
 
-.tecnologias svg {
-    width: 4rem;
-    height: 4rem;
+.tecnologias object {
     transition: all .3s ease-in;
+    margin: 0 10px 10px;
+    filter: grayscale();
 }
 
-.tecnologias svg:hover {
+.tecnologias object:hover {
     transform: scale(1.2);
     filter: saturate(3);
 }
-
 
 .service-card {
     margin: 1rem auto;
@@ -739,6 +739,7 @@ progress::-moz-progress-bar {
         grid-template-columns: repeat(3,30%);
         justify-content: space-between;
         align-content: center;
+        margin: 50px auto;
     }
 
     .contact-cards {        
