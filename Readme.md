@@ -2,4 +2,4 @@
 
 Soy desarrollador web
 
-https://rbocache.github.io/my-cv
+https://rbocache.github.io/my-cv/files
