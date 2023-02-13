@@ -657,13 +657,15 @@ progress::-moz-progress-bar {
     justify-content: center;    
 }
 
-.tecnologias object {
+.tecnologias svg {
     transition: all .3s ease-in;
+    width: 70px;
+    height: 70px;
     margin: 0 10px 10px;
     filter: grayscale();
 }
 
-.tecnologias object:hover {
+.tecnologias svg:hover {
     transform: scale(1.2);
     filter: saturate(3);
 }
