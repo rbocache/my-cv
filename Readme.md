@@ -1,4 +1,4 @@
-# Mi Curriculum Vitae a febrero de 2023
+# Mi Curriculum Vitae (Próximamente...)
 
 Soy desarrollador web
 
